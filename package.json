@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-iota-chrysalis",
+  "name": "node-red-contrib-iota-zignar-wasm",
   "version": "1.2.2",
   "description": "Node Red integration whith IOTA for Chrysalis",
   "main": "iota-info.js",
@@ -15,16 +15,16 @@
       "iotaserver" : "iota-server.js"
     }
   },
-  "author": "vruiz@wittelecom.com>",
+  "author": "sascha1337@zignar.ca",
   "license": "MIT",
   "dependencies": {
-    "@iota/iota.js": "iotaledger/iota.js#chrysalis",
+    "@iota/iota.js": "iotaledger/iota.js",
     "transliteration": "^2.2.0",
     "dotenv": "^8.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vruizvil/node-red-contrib-iota-chrysalis.git"
+    "url": "https://github.com/Zignar-Technologies/node-red-contrib-iota-chrysalis.git"
   },
   "keywords": [
     "node-red",
